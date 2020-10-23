@@ -37,7 +37,7 @@
 #  
 
 # test for requirements
-if [ -z $(which zip) ]
+if [ -z "$(which zip)" ]
 then
     echo "This script requires the \`zip' package to work"
     echo "This is because the only known way to do steganography with an image is through a zip file (or rar, but this format sucks), so no tar.gz"

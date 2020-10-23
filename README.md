@@ -1,4 +1,6 @@
-# A steganography tool to conceal data within JPG images.
+# stego - a steganography tool to conceal data within JPG images.
+
+![stego logo - the friendly stegosaurus](https://raw.githubusercontent.com/kzimmermann/stego/main/stego_logo.png)
 
 `stego` is a steganography script designed to hide data inside innocent-looking JPG images, where doing so does not alter either the way the image looks (image data is completely preserved) or the integrity of the data (hidden data can be obtained exactly like it was inserted).
 
